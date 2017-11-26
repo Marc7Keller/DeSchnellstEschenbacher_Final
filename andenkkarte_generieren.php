@@ -1,10 +1,9 @@
 <?php
 
-
 include("php/config.php");
 include("includes/sessions.php");
-include("fpdf/fpdf.php"); 
-
+include("fpdf/fpdf.php");
+include("eventtitel_laden_fpdf.php");
 
 class PDF extends FPDF {
     // Kopfzeile
@@ -54,7 +53,7 @@ $pdf=new PDF();
             $pdf->AddPage('P','A5'); 
              $pdf->SetFont('Arial','B',20);
             $pdf->Ln(10);
-            $pdf->Cell(0,0,''.$row_event['event_name'],0,0,'C');
+            $pdf->Cell(0,0,$_SESSION['event_title'],0,0,'C');
             $pdf->Ln(10);
             $pdf->Cell(0,0,'Auszeichnung',0,0,'C');
             $pdf->Ln(80);

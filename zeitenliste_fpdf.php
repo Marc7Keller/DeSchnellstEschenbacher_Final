@@ -1,10 +1,9 @@
 <?php
 
-
 include("php/config.php");
 include("includes/sessions4.php");
-include("fpdf/fpdf.php"); 
-
+include("fpdf/fpdf.php");
+include("eventtitel_laden_fpdf.php");
 
 class PDF extends FPDF {
     // Kopfzeile
@@ -15,11 +14,10 @@ class PDF extends FPDF {
         $this->SetFont('Arial','B',18);
         
         $this->Cell(80);
+        
         // Titel
         
-        
-        
-        $this->Cell(30,10,'De schnellscht Eschebacher 2017',0,0,'C');
+        $this->Cell(30,10,$_SESSION['event_title'],0,0,'C');
         
         $this->Image('_img/deschnellsteschenbacher_logo_klein.png',160,8,33);
         
