@@ -1,0 +1,23 @@
+#veranstaltungsjahr
+{
+	width: 300px;
+	margin-left: 38px;
+}
+
+#bezeichnung
+{
+	margin-left: 80px;
+	width: 300px;
+}
+
+#anlass
+{
+	margin-left: 120px;
+	width: 305px;
+}
+
+#anlass_tabelle
+{
+	width: 95%;
+	margin: 0 auto;
+}

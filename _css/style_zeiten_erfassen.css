@@ -1,0 +1,45 @@
+#laeufer
+{
+	margin-left: 121px;
+	width: 200px;
+}
+
+#anlass
+{
+	margin-left: 115px;
+	width: 200px;
+}
+
+#zeit
+{
+	margin-left: 138px;
+	width: 197px;
+}
+
+#start_number
+{
+	margin-left: 94px;
+	width: 200px;
+}
+
+#zeiten_erfassen_tabelle
+{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.controls
+{
+	text-align: center;
+}
+
+a
+{
+	color: black;
+}
+
+#speichern_button
+{
+	margin-left: 30px;
+}
+

@@ -1,0 +1,313 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+body
+{
+	font-family: Segoe UI, Verdana, sans-serif;
+	background-color: rgb(19,83,187);
+	background-size: cover;
+	opacity: 0.9;
+}
+
+input
+{
+	background-color:white;
+}
+
+input:focus
+{
+	background-color:rgb(255,255,51);
+}
+
+table
+{
+    border-collapse: collapse;
+    border: 1.5px solid black;
+    min-width: 780px;
+    max-width: 1180px;
+}
+
+table td
+{
+    border: 1.5px solid black;
+    padding: 3px;
+}
+
+table th
+{
+   padding: 3px; 
+}
+
+#sitediv
+{
+	min-width: 820px;
+    max-width: 1250px;
+	margin: 0 auto;
+    text-align: center;
+}
+
+#scdiemberg_logo
+{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+#deschnellsteschenbacher_logo
+{
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+
+#event_selection
+{
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+#content
+{
+	min-height: 600px;
+	background: white;
+	opacity: 0.8;
+	clear: both;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	z-index: 1;
+    text-align: left;
+}
+
+#nav
+{
+	margin-top: 145px;
+	margin-bottom: 30px;
+    display: inline-block;
+}
+
+nav ul ul 
+{
+	display: none;
+}
+
+nav ul li:hover > ul 
+{
+	display: block;
+}
+
+nav ul
+{
+	background: white;
+	opacity: 0.9;
+	padding: 0 70px;
+	border-radius: 35px; 
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	z-index: 2;
+}
+
+nav ul:after 
+{
+	content: ""; clear: both; display: block;
+}
+
+nav ul li 
+{
+	float: left;
+}
+
+nav ul li:hover 
+{
+	background: rgb(9,51,121);
+}
+
+nav ul li:hover a 
+{
+	color: white;
+}
+
+nav ul li a 
+{
+	display: block; 
+	padding: 15px 60px;
+	color: #757575; 
+	text-decoration: none;
+	opacity: 1;
+}
+
+nav ul ul 
+{
+	background: rgb(9,51,121); 
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute; 
+	top: 100%;
+	opacity: 1;
+	z-index: 2;
+}
+
+.nav2 ul li
+{
+	float: none; 
+	position: relative;
+	width: 222px;
+}
+
+.nav3 ul li
+{
+	float: none; 
+	position: relative;
+	width: 224px;
+}
+
+nav ul ul li a 
+{
+	padding: 15px 40px;
+	color: #fff;
+}	
+
+nav ul ul li a:hover 
+{
+	background: rgb(255,255,51);
+	color: rgb(9,51,121);
+	opacity: 1;
+}
+
+nav ul ul ul 
+{
+	position: absolute; left: 100%; top:0;
+	z-index: 2;
+	background: rgb(9,51,121);
+}
+
+.nav3 ul ul li
+{
+	width: 280px;
+	background: rgb(11,63,147);
+}
+
+#footer
+{
+	height: 40px;
+	background: white;
+	margin-top: 10px;
+	opacity: 0.8;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+#site_title
+{
+	font-size: 25px;
+	color: rgb(9,51,121);
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#speichern_button
+{
+	padding: 3px 10px 3px 10px;
+	border: none;
+	background: rgb(9,51,121);
+	color: white;
+	border-radius: 5px;
+}
+
+#speichern_button:hover
+{
+	color: rgb(9,51,121);
+	background: rgb(255,255,51);
+	
+}
+
+#loeschen_button
+{
+	padding: 3px 10px 3px 10px;
+	border: none;
+	background: red;
+	color: white;
+	border-radius: 5px;
+}
+
+#loeschen_button:hover
+{
+	color: black;
+	
+}
+
+#laden_button
+{
+	padding: 3px 10px 3px 10px;
+	border: none;
+	background: rgb(9,51,121);
+	color: white;
+	border-radius: 5px;
+}
+
+#laden_button:hover
+{
+	color: rgb(9,51,121);
+	background: rgb(255,255,51);
+	
+}
+
+#event_selection_button
+{
+	padding: 3px 10px 3px 10px;
+	border: none;
+	background: rgb(9,51,121);
+	color: white;
+	border-radius: 5px;
+}
+
+#event_selection_button:hover
+{
+	color: rgb(9,51,121);
+	background: rgb(255,255,51);
+	
+}
+
+#logout_button
+{
+	padding: 3px 10px 3px 10px;
+	border: none;
+	background: rgb(9,51,121);
+	color: white;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+#logout_button:hover
+{
+	color: rgb(9,51,121);
+	background: rgb(255,255,51);
+	
+}
+
+#form_verwaltung
+{
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+#form_verwaltung2
+{
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+#form_zeiten_erfassen
+{
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+
+
+

@@ -1,0 +1,103 @@
+#nachname
+{
+	margin-left: 106px;
+	width: 300px;
+}
+
+#vorname
+{
+	margin-left: 117px;
+	width: 300px;
+}
+
+#person
+{
+	margin-left: 121px;
+	width: 305px;
+}
+
+#gebdatum
+{
+	margin-left: 61px;
+	width: 300px;
+}
+
+#strasse
+{
+	margin-left: 132px;
+	width: 300px;
+}
+
+#hausnummer
+{
+	margin-left: 81px;
+	width: 300px;
+}
+
+#plz
+{
+	margin-left: 156px;
+	width: 300px;
+}
+
+#ort
+{
+	margin-left: 159px;
+	width: 300px;
+}
+
+#letztes_aktives_jahr
+{
+	margin-left: 47px;
+	width: 300px;
+}
+
+#radio1
+{
+	margin-left: 260px;
+}
+
+/*Neue Lehrperson*/
+
+#nachname_neu
+{
+	width: 300px;
+	margin-left: 110px;
+}
+
+#vorname_neu
+{
+	width: 300px;
+	margin-left: 122px;
+}
+
+#strasse_neu
+{
+	width: 300px;
+	margin-left: 143px;
+}
+
+#plz_neu
+{
+	width: 300px;
+	margin-left: 167px;
+}
+
+#ort_neu
+{
+	width: 300px;
+	margin-left: 170px;
+}
+
+#letztes_aktives_jahr_neu
+{
+	width: 300px;
+	margin-left: 58px;
+}
+
+#lehrperson_tabelle
+{
+	width: 95%;
+	margin: 0 auto;
+}
+

@@ -1,0 +1,37 @@
+#benutzername
+{
+	width: 250px;
+	margin-left: 81px;
+}
+
+#passwort
+{
+	width: 250px;
+	margin-left: 120px;
+}
+
+#passwort_wdh
+{
+	width: 250px;
+	margin-left: 29px;
+}
+
+#benutzerrolle
+{
+	width: 255px;
+	margin-left: 90px;
+}
+
+#benutzer
+{
+	width: 255px;
+	margin-left: 121px;
+}
+
+#benutzer_tabelle
+{
+	width: 95%;
+	margin: 0 auto;
+}
+
+

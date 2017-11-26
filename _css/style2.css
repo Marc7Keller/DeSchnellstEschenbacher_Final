@@ -1,0 +1,111 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+body
+{
+	font-family: Segoe UI, Verdana, sans-serif;
+	background-color: rgb(19,83,187);
+	background-size: cover;
+	opacity: 0.9;
+}
+
+#sitediv
+{
+	width: 820px;
+	margin: 0 auto;
+}
+
+#scdiemberg_logo
+{
+
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+#deschnellsteschenbacher_logo
+{
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+
+#content
+{
+	min-height: 300px;
+	background: white;
+	opacity: 0.8;
+	clear: both;
+	margin-top: 160px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	z-index: 1;
+	
+}
+
+#footer
+{
+	height: 40px;
+	background: white;
+	margin-top: 10px;
+	opacity: 0.8;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+#site_title
+{
+	padding-top: 20px;
+	padding-left: 20px;
+	color: rgb(9,51,121);
+}
+
+#login_form
+{
+	padding-top: 80px;
+	padding-left: 20px;
+}
+
+#login_form_username
+{
+	margin-left: 50px;
+}
+
+#login_form_password
+{
+	margin-left: 89px;
+}
+
+#anmelden_button
+{
+	padding: 3px 10px 3px 10px;
+	border: none;
+	background: rgb(9,51,121);
+	color: white;
+	border-radius: 5px;
+}
+
+#anmelden_button:hover
+{
+	color: rgb(9,51,121);
+	background: rgb(255,255,51);
+}
+
+input
+{
+	background-color:white;
+}
+
+input:focus
+{
+	background-color:rgb(255,255,51);
+}
+
+
+
+
+

@@ -1,0 +1,41 @@
+#bezeichnung
+{
+	margin-left: 80px;
+	width: 300px;
+}
+
+#streckenlaenge
+{
+	margin-left: 70px;
+	width: 300px;
+}
+
+#jahrgang_start
+{
+	margin-left: 73px;
+	width: 300px;
+}
+
+#jahrgang_ende
+{
+	margin-left: 71px;
+	width: 300px;
+}
+
+#radiobuttons
+{
+	border: none;
+}
+
+#kategorie
+{
+	margin-left: 103px;
+	width: 304px;
+}
+
+#kategorie_tabelle
+{
+	width: 95%;
+	margin: 0 auto;
+}
+

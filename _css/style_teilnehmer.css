@@ -1,0 +1,260 @@
+#person
+{
+	margin-left: 130px;
+	width: 305px;
+}
+
+#klasse
+{
+	width: 305px;
+	margin-left: 135px;
+}
+
+#kategorie
+{
+	margin-left: 110px;
+	width: 305px;
+}
+
+#checkbox_nachanmeldung
+{
+	margin-left: 68px;
+}
+
+#vorname
+{
+	margin-left: 116px;
+	width: 300px;
+}
+
+#nachname
+{
+	margin-left: 104px;
+	width: 300px;
+}
+
+#startnummer
+{
+	margin-left: 88px;
+	width: 300px;
+}
+
+#gebjahr
+{
+	margin-left: 96px;
+	width: 300px;
+}
+
+#start_number
+{
+	margin-left: 85px;
+	width: 300px;
+}
+
+#strasse
+{
+	margin-left: 135px;
+	width: 300px;
+}
+
+#plz
+{
+	margin-left: 159px;
+	width: 300px;
+}
+
+#ort
+{
+	margin-left: 155px;
+	width: 300px;
+}
+
+#vorname2
+{
+	margin-left: 125px;
+	width: 300px;
+}
+
+#nachname2
+{
+	margin-left: 114px;
+	width: 300px;
+}
+
+#strasse2
+{
+	margin-left: 140px;
+	width: 300px;
+}
+
+#plz2
+{
+	margin-left: 164px;
+	width: 300px;
+}
+
+#ort2
+{
+	margin-left: 166.5px;
+	width: 300px;
+}
+
+#klasse2
+{
+	width: 305px;
+	margin-left: 140px;
+}
+
+#kategorie2
+{
+	margin-left: 115px;
+	width: 305px;
+}
+
+#checkbox_nachanmeldung2
+{
+	margin-left: 74px;
+}
+
+#teilnehmer_tabelle
+{
+	width: 95%;
+	margin: 0 auto;
+}
+
+#teilnehmeransicht_tabelle
+{
+	width: 95%;
+	margin: 0 auto;
+}
+
+#teilnehmeransicht_tabelle2
+{
+	width: 95%;
+	margin: 0 auto;
+}
+
+#gebjahr2
+{
+	margin-left: 106px;
+	width: 300px;
+}
+
+#vorname_teilnehmeransicht_suche
+{
+	margin-left: 116px;
+	width: 300px;
+}
+
+#nachname_teilnehmeransicht_suche
+{
+	margin-left: 105px;
+	width: 300px;
+}
+
+#startnummer_teilnehmeransicht_suche
+{
+	margin-left: 88px;
+	width: 300px;
+}
+
+#vorname_teilnehmeransicht
+{
+	margin-left: 125px;
+	width: 300px;
+}
+
+#nachname_teilnehmeransicht
+{
+	margin-left: 113px;
+	width: 300px;
+}
+
+#gebjahr_teilnehmeransicht
+{
+	margin-left: 107px;
+	width: 300px;
+}
+
+#strasse_teilnehmeransicht
+{
+	margin-left: 140px;
+	width: 300px;
+}
+
+#plz_teilnehmeransicht
+{
+	margin-left: 164px;
+	width: 300px;
+}
+
+#ort_teilnehmeransicht
+{
+	margin-left: 166px;
+	width: 300px;
+}
+
+#klasse_teilnehmeransicht
+{
+	margin-left: 145px;
+	width: 300px;
+}
+
+#kategorie_teilnehmeransicht
+{
+	margin-left: 120px;
+	width: 300px;
+}
+
+#startnummer_teilnehmeransicht
+{
+	margin-left: 96px;
+	width: 300px;
+}
+
+#loeschen_button
+{
+	padding: 3px 10px 3px 10px;
+	border: none;
+	background: rgb(9,51,121);
+	color: white;
+	border-radius: 5px;
+}
+
+#loeschen_button:hover
+{
+	color: rgb(9,51,121);
+	background: rgb(255,255,51);
+	
+}
+
+#laden_button_name
+{
+	padding: 3px 10px 3px 10px;
+	border: none;
+	background: rgb(9,51,121);
+	color: white;
+	border-radius: 5px;
+}
+
+#laden_button_name:hover
+{
+	color: rgb(9,51,121);
+	background: rgb(255,255,51);
+}
+
+#laden_button_startnummer
+{
+	padding: 3px 10px 3px 10px;
+	border: none;
+	background: rgb(9,51,121);
+	color: white;
+	border-radius: 5px;
+}
+
+#laden_button_startnummer:hover
+{
+	color: rgb(9,51,121);
+	background: rgb(255,255,51);
+	
+}

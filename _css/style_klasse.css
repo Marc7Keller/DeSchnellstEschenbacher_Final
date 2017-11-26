@@ -1,0 +1,41 @@
+#anzahl_schueler
+{
+	margin-left: 82px;
+	width: 300px;
+}
+
+#schule
+{
+	margin-left: 140px;
+	width: 300px;
+}
+
+#ort_klasse
+{
+	margin-left: 163px;
+	width: 300px;
+}
+
+#klasse
+{
+	margin-left: 143px;
+	width: 300px;
+}
+
+#bezeichnung
+{
+	margin-left: 96px;
+	width: 300px;
+}
+
+#klassenlehrperson
+{
+	margin-left: 58px;
+	width: 304px;
+}
+
+#klasse_tabelle
+{
+	width: 95%;
+	margin: 0 auto;
+}
