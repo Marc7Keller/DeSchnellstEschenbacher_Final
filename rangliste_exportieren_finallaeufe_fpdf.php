@@ -57,7 +57,7 @@ foreach ($_POST['kategorie'] as &$value) {
 
             $pdf->SetFont('Arial','',10);
             $pdf->Cell(5,10,'',0,0,'A');
-            $pdf->Cell(10,10,"Startnr.",0,0,'A');
+            $pdf->Cell(15,10,"Startnr.",0,0,'A');
             $pdf->Cell(55,10,"Name",0,0,'A');
             $pdf->Cell(40,10,"Adresse",0,0,'A');
             $pdf->Cell(25,10,"Jahrgang",0,0,'A');
@@ -73,7 +73,7 @@ foreach ($_POST['kategorie'] as &$value) {
             $rang = 1;
             while($row = mysqli_fetch_array($res)){
                 $pdf->Cell(5,10,'',0,0,'A' );
-                $pdf->Cell(10,10,$row['start_number'],0,0,'L');
+                $pdf->Cell(15,10,$row['start_number'],0,0,'L');
                 $pdf->Cell(55,10,utf8_decode($row['name'])." ".utf8_decode($row['firstname']),0,0,'A');
                 $pdf->Cell(40,10,utf8_decode($row['street']),0,0,'A');
                 $pdf->Cell(25,10,$row['year_of_birth'],0,0,'A');

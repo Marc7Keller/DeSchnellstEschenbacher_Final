@@ -26,10 +26,12 @@
 					<ul>
 						<li><a href="startliste_exportieren.php">Startliste pro Kategorie</a></li>
 						<li><a href="startliste_alphabetisch_exportieren_fpdf.php">Startliste alphabetisch</a></li>
-						<li><a href="rangliste_exportieren.php">Rangliste pro Kategorie</a></li>
-						<li><a href="rangliste_finallaeufer_exportieren.php">Rangliste nur Finalläufer</a></li>
+						<li><a href="rangliste_finallaeufer_exportieren.php">Startliste Finalläufer</a></li>
+                        <li><a href="rangliste_exportieren.php">Rangliste pro Kategorie</a></li>
                         <li><a href="overall_rangliste.php">Rangliste über 80m</a></li>
-						<li><a href="andenkkarte_generieren.php">Andenkkarten generieren</a></li>
+						<li><a href="andenkkarte_generieren.php">Alle Andenkkarten</a></li>
+                        <li><a href="andenkkarten_nach_kategorie_generieren.php">Andenkkarten pro Kategorie ohne Finalläufer</a></li>
+                        <li><a href="andenkkarten_finallaeufer_nach_kategorie_generieren.php">Andenkkarten der Finalläufer pro Kategorie</a></li>
                         <li><a href="zeitenliste_exportieren.php">Zeitenliste generieren</a></li>
 					</ul>
 					<?php
@@ -85,6 +87,8 @@
 								<li><a href="neuer_benutzer.php">Neuer Benutzer</a></li>
 								<li><a href="benutzer_bearbeiten.php">Benutzer bearbeiten</a></li>
 							</ul>
+						</li>
+                        <li><a href="ranglisten_export_excel.php">Excel-Export Ranglisten</a>
 						</li>
 						<?php
 						}
